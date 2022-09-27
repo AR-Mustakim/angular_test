@@ -1,0 +1,23 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+table {
+  width: 100%;
+  background-color: none;
+  border-radius: 10px 10px 10px 10px;
+}
+
+th {
+  background-color: #f6f6f6;
+  border: 0.25px solid #C8C8C8;
+}
+
+.mat-header-cell {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+td {
+  text-align: center;
+  border: 0.25px solid #C8C8C8;
+}

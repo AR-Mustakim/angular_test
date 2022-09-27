@@ -1,0 +1,82 @@
+
+.toolbar {
+  font-family: 'Arial';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #232b2b;
+  color: #808080;
+  font-weight: 600;
+}
+
+ .toolbar h2{
+   left: 0px;
+   margin: 0px 56px;
+
+}
+
+ .toolbar p{
+   position: absolute;
+   right: 0px;
+   margin: 0px 30px;
+
+}
+
+
+.dashbordWrapper {
+  margin: 60px 0 0 0;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
+  min-height: 100%;
+}
+
+  .dashbordWrapper h1 {
+    left: 0px;
+    margin: 25px 0px 0 56px;
+    font-size: 32px;
+  }
+.cardWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 95%;
+  min-height: 100%;
+  margin: 1% 2.5%;
+}
+
+#card-med {
+  border: 1px solid #C8C8C8;
+  border-radius: 10px 10px 10px 10px;
+  height: 350px;
+  width: 50%;
+  margin: 5px 30px;
+  justify-content: center;
+  align-content:center;
+}
+#card-wide {
+  border: 1px solid #C8C8C8;
+  border-radius: 10px 10px 10px 10px;
+  height: auto;
+  width: 100%;
+  margin: 5px 30px;
+  align-items: center;
+}
+
+#card-header {
+  background-color: #f6f6f6;
+  padding: 10px 20px;
+  text-align: left;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+  height: 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
